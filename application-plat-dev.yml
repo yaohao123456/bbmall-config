@@ -3,3 +3,8 @@ server:
 spring:
   application:
     name: BBMALL-PLAT
+  datasource:
+    driverClassName=com.mysql.jdbc.Driver
+    url=jdbc:mysql:///bbmall-plat?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username=root
+    password=root
