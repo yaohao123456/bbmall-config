@@ -1,0 +1,10 @@
+server:
+  port: 1001
+spring:
+  application:
+    name: BBMALL-PRODUCT
+  datasource:
+     driver-class-name: com.mysql.jdbc.Driver
+     url: jdbc:mysql:///bbmall-product?useSSL=false&useUnicode=true&characterEncoding=utf8
+     username: root
+     password: root
