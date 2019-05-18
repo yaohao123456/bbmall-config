@@ -10,3 +10,6 @@ zuul:
     plat:
       path: /plat/**
       service-id: bbmall-plat
+    product:
+      path: /product/**
+      service-id: bbmall-product
